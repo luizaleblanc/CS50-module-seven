@@ -1,0 +1,11 @@
+Reflexões sobre o problema "Songs" do CS50:
+
+Neste problema, pratiquei a escrita de consultas SQL para extrair informações de um banco de dados de músicas.
+
+Para as primeiras consultas, usei comandos simples como 'SELECT name FROM songs' para listar dados. Aprendi a ordenar os resultados usando 'ORDER BY tempo ASC' (para crescente) e 'ORDER BY duration_ms DESC' (para decrescente), e também a limitar o número de resultados com 'LIMIT 5'.
+
+Para filtrar, usei a cláusula 'WHERE' com múltiplos critérios, como 'WHERE danceability > 0.75 AND energy > 0.75'. Também aprendi a usar funções de agregação, como 'SELECT AVG(energy)' para calcular a média de uma coluna.
+
+Nos problemas 6 e 7, precisei conectar dados de duas tabelas (songs e artists). Usei uma subconsulta para encontrar o 'artist_id' de um artista pelo nome (ex: WHERE artist_id = (SELECT id FROM artists WHERE name = 'Post Malone')). Isso foi crucial, pois não tínhamos o ID de antemão.
+
+Finalmente, para o problema 8, usei o operador 'LIKE' com o curinga '%' (LIKE '%feat.%') para encontrar músicas que continham um padrão de texto específico em seus nomes, o que foi muito útil para correspondência de strings.
