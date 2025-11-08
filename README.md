@@ -14,7 +14,6 @@ To run, test, or validate these queries, you must first download the original di
 * `movies.db`
 * `fiftyville.db`
 
----
 
 ## Projects Included
 
@@ -38,4 +37,3 @@ This was a capstone SQL challenge to solve a fictional mystery: the theft of the
 
 * **`log.sql`:** This file is the core of the project. It contains the complete, commented sequence of SQL queries used to solve the mystery. It documents the entire thought process, from analyzing the initial crime scene report and witness interviews to cross-referencing ATM transactions, phone calls, bakery security logs, and flight manifests to narrow down the suspects.
 * **`answers.txt`:** The final solution to the mystery, listing the thief, their escape city, and their accomplice.
-```
